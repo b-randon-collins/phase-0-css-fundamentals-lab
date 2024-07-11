@@ -1,5 +1,43 @@
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
+/* Update the header: Align the text in the center */
+header {
+    text-align: center;
+}
+
+/* Center our image and text underneath */
+#featured-property {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center-align the items */
+}
+
+/* Jazz up our navigation links */
+nav a {
+    padding: 10px;
+    background-color: grey;
+}
+
+/* Update the image caption */
+figcaption {
+    font-size: smaller; /* Shrink the font size */
+    text-align: center; /* Ensure it's centered */
+}
+
+/* Update the text block */
+#featured-property p {
+    max-width: 800px;
+    margin: 20px auto; /* Center the text block with some vertical spacing */
+    text-align: center;
+}
+
+/* Make the #details section horizontal and set the background color to red */
+#details {
+    display: flex;
+    justify-content: space-between;
+    background-color: red; /* Explicitly set the background color to red */
+}
+
+/* Clean up the <div>s at the bottom of the page */
+#details div {
+    width: 25%; /* Each div takes up 25% of the width */
+    text-align: center; /* Centered text */
 }
